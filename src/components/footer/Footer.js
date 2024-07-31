@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className="row mt-5">
           <div className="col-12 text-center">
-            <p className="mbb-0">Copyright &copy; {new Date().getFullYear()} All Rights Reserved. &mdash; Designed by <a href="https://cloudwise.co.ke/" >Cloudwise Limited</a> </p>
+            <p className="mbb-0">Copyright &copy; {new Date().getFullYear()} All Rights Reserved. &mdash; Designed by <a href="https://cloudwise.co.ke/" >Cloudwise</a> </p>
           </div>
         </div>
         
