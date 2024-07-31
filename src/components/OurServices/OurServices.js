@@ -36,7 +36,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Tour and Adventure</h3>
-                    <p>Explore Kenya's stunning landscapes and wildlife with our guided tours and safari adventures.</p>
+                    <p>Explore the stunning landscapes and wildlife of Kenya with our guided tours and safari adventures.</p>
                   </div>
                 </div>
               </div>
@@ -47,7 +47,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Travel Insurance</h3>
-                    <p> Travel with peace of mind knowing you're covered by our comprehensive travel insurance.</p>
+                    <p> Travel with peace of mind knowing you are covered by our comprehensive travel insurance.</p>
                   </div>
                 </div>
               </div>

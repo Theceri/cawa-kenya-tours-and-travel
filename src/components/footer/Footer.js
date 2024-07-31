@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col-lg-4">
             <div className="widget">
               <h3>About CAWA Kenya Tours & Travel<span className="text-primary">.</span></h3>
-              <p>Welcome to CAWA Kenya Tours and Travels, your gateway to the heart of Africa. As a premier tour operator, we are dedicated to crafting unforgettable travel experiences across Kenya's stunning landscapes and vibrant cultures.</p>
+              <p>Welcome to CAWA Kenya Tours and Travels, your gateway to the heart of Africa. As a premier tour operator, we are dedicated to crafting unforgettable travel experiences across the stunning landscapes and vibrant cultures of Kenya.</p>
             </div>
             <div className="widget">
               <h3>Connect</h3>

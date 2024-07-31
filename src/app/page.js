@@ -17,7 +17,7 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center justify-content-start">
             <div className="col-lg-5">
-              <h1 className="headings" data-aos="fade-up">It's a Big World Out There, Go Explore</h1>
+              <h1 className="headings" data-aos="fade-up">It is a Big World Out There, Go Explore</h1>
               <p className="mb-5" data-aos="fade-up">Welcome to CAWA Tours and Travels, your gateway to discovering the enchanting beauty of Kenya. Based in the heart of East Africa, we specialize in offering exceptional hotel booking services tailored for international tourists.</p>
 
               {/* <div data-aos="fade-up">
@@ -200,7 +200,7 @@ const Home = () => {
 							<p class="position mb-5">Designer at Facebook</p>
 						</div>
 						<div class="quote">&ldquo;</div>
-            <p>&ldquo;What a fantastic adventure! CAWA Kenya Tours and Travels provided us with an authentic and enriching experience. The accommodations were top-notch, and the staff was friendly and professional. We can't wait to book our next trip!&rdquo;</p>
+            <p>&ldquo;What a fantastic adventure! CAWA Kenya Tours and Travels provided us with an authentic and enriching experience. The accommodations were top-notch, and the staff was friendly and professional. We cannot wait to book our next trip!&rdquo;</p>
   
 					</blockquote>
 				</div>
