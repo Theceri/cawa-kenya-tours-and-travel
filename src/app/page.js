@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <main>
 
-      
+
       <div className="hero overlay">
         <div className="img-bg rellax">
           <Image src="/images/magical-kenya-3.jpg" alt="Image" className="img-fluid object-fit-fill" width={1800} height={800} />
@@ -139,33 +139,33 @@ const Home = () => {
       {/* SECTION 4 */}
 
       <div class="section">
-		    <div class="container">
-			   <div class="row justify-content-between align-items-center">
-				   <div class="col-lg-5 mb-4 mb-lg-0 order-lg-2" data-aos="fade-up">
-					   <Image src="/images/img-1.jpeg" alt="Image" class="img-fluid" width={600} height={400}/>
-				  </div>
-				  <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
-					  <h2 class="heading mb-4">Sweet Memories Come To Life Again</h2>
-					  <p>At CAWA Tours and Travels, we believe that where you stay is just as important as your destination. That’s why we partner with the finest hotels and lodges across Kenya, from the bustling capital of Nairobi to the serene beaches of Mombasa and the breathtaking savannas of the Maasai Mara.</p>
-					  <p>Our curated selection of accommodations ensures that you can enjoy world-class amenities, exceptional service, and a true taste of Kenyan hospitality. </p>
-					  <p class="my-4" data-aos="fade-up" data-aos-delay="200"><a href="/services" class="btn btn-primarys">Read more</a></p>
-				  </div>	
-			   </div>
-		    </div>
-	    </div>
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-5 mb-4 mb-lg-0 order-lg-2" data-aos="fade-up">
+              <Image src="/images/img-1.jpeg" alt="Image" class="img-fluid" width={600} height={400} />
+            </div>
+            <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+              <h2 class="heading mb-4">Sweet Memories Come To Life Again</h2>
+              <p>At CAWA Tours and Travels, we believe that where you stay is just as important as your destination. That’s why we partner with the finest hotels and lodges across Kenya, from the bustling capital of Nairobi to the serene beaches of Mombasa and the breathtaking savannas of the Maasai Mara.</p>
+              <p>Our curated selection of accommodations ensures that you can enjoy world-class amenities, exceptional service, and a true taste of Kenyan hospitality. </p>
+              <p class="my-4" data-aos="fade-up" data-aos-delay="200"><a href="/services" class="btn btn-primarys">Read more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* SECTION 5 */}
 
 
       <div class="section bg-light">
-		
 
 
 
-		 <h2 class="heading mb-5 text-center">Testimonials</h2>
 
-		 <div class="text-center mb-5">
-			  {/* <div id="prevnext-testimonial">
+        <h2 class="heading mb-5 text-center">Testimonials</h2>
+
+        <div class="text-center mb-5">
+          {/* <div id="prevnext-testimonial">
 				   <span class="prev me-3" data-controls="prev">
 					   <span class="icon-chevron-left"></span>
 
@@ -175,65 +175,65 @@ const Home = () => {
 
 				    </span>
 			  </div> */}
-		  </div>
+        </div>
 
-		  <div class="wide-slider-testimonial-wrap">
-			   <div class="wide-slider-testimonial">
-				   <div class="item">
-					   <blockquote class="block-testimonial">
-						    <div class="author">
-							   <Image src="/images/person_1.jpg" alt="Free template by TemplateUX" width={600} height={400}/>
-							   <h4 className="highlighted-name">John Doe</h4>
-							   <p class="position mb-5">CEO, Founder</p>
-						    </div>
+        <div class="wide-slider-testimonial-wrap">
+          <div class="wide-slider-testimonial">
+            <div class="item">
+              <blockquote class="block-testimonial">
+                <div class="author">
+                  <Image src="/images/person_1.jpg" alt="Free template by TemplateUX" width={600} height={400} />
+                  <h4 className="highlighted-name">John Doe</h4>
+                  <p class="position mb-5">CEO, Founder</p>
+                </div>
                 <div class="quote">&ldquo;</div>
-                 <p>&ldquo;We had the most amazing time exploring Kenya with CAWA Kenya Tours and Travels. The attention to detail and personalized service were outstanding. From the moment we arrived until our departure, everything was perfectly organized. Highly recommend for anyone looking to explore Kenya!&rdquo;</p>
-						    
+                <p>&ldquo;We had the most amazing time exploring Kenya with CAWA Kenya Tours and Travels. The attention to detail and personalized service were outstanding. From the moment we arrived until our departure, everything was perfectly organized. Highly recommend for anyone looking to explore Kenya!&rdquo;</p>
+
               </blockquote>
-				    </div>
+            </div>
 
-				<div class="item">
-					<blockquote class="block-testimonial">
-						<div class="author">
-							<Image src="/images/person_2.jpg" alt="Free template by TemplateUX" width={600} height={400}/>
-							<h4 className="highlighted-name">James Woodland</h4>
-							<p class="position mb-5">Designer at Facebook</p>
-						</div>
-						<div class="quote">&ldquo;</div>
-            <p>&ldquo;What a fantastic adventure! CAWA Kenya Tours and Travels provided us with an authentic and enriching experience. The accommodations were top-notch, and the staff was friendly and professional. We cannot wait to book our next trip!&rdquo;</p>
-  
-					</blockquote>
-				</div>
-             
-             
+            {/* <div class="item">
+              <blockquote class="block-testimonial">
+                <div class="author">
+                  <Image src="/images/person_2.jpg" alt="Free template by TemplateUX" width={600} height={400} />
+                  <h4 className="highlighted-name">James Woodland</h4>
+                  <p class="position mb-5">Designer at Facebook</p>
+                </div>
+                <div class="quote">&ldquo;</div>
+                <p>&ldquo;What a fantastic adventure! CAWA Kenya Tours and Travels provided us with an authentic and enriching experience. The accommodations were top-notch, and the staff was friendly and professional. We cannot wait to book our next trip!&rdquo;</p>
 
-				<div class="item">
-					<blockquote class="block-testimonial">
-						<div class="author">
-							<Image src="/images/person_3.jpg" alt="Free template by TemplateUX" width={600} height={400}/>
-							<h4 className="highlighted-name">Rob Smith</h4>
-							<p class="position mb-5">Product Designer at Twitter</p>
-						</div>
-						<div class="quote">&ldquo;</div>
-                 <p>&ldquo;CAWA Kenya Tours and Travels exceeded all our expectations. The itinerary was well-planned and tailored to our interests. We felt safe and well taken care of throughout our journey. Thank you for making our trip to Kenya so special!&rdquo;</p>
-  
-      		</blockquote>
-				</div>
+              </blockquote>
+            </div> */}
 
-				<div class="item">
-					<blockquote class="block-testimonial">
-						<div class="author">
-							<Image src="/images/person_sq_1.jpg" alt="Free template by TemplateUX" width={600} height={400}/>
-							<h4 className="highlighted-name">Jane White</h4>
-							<p class="position mb-5">CEO, Founder</p>
-						</div>
-						<div class="quote">&ldquo;</div>
-                 <p>&ldquo;Our safari with CAWA Kenya Tours and Travels was a dream come true! The guides were incredibly knowledgeable and made sure we had an unforgettable experience. From the breathtaking landscapes to the amazing wildlife, every moment was perfect. Highly recommend!&rdquo;</p>
-  
-          </blockquote>
-				</div>
 
-				{/* <div class="item">
+
+            {/* <div class="item">
+              <blockquote class="block-testimonial">
+                <div class="author">
+                  <Image src="/images/person_3.jpg" alt="Free template by TemplateUX" width={600} height={400} />
+                  <h4 className="highlighted-name">Rob Smith</h4>
+                  <p class="position mb-5">Product Designer at Twitter</p>
+                </div>
+                <div class="quote">&ldquo;</div>
+                <p>&ldquo;CAWA Kenya Tours and Travels exceeded all our expectations. The itinerary was well-planned and tailored to our interests. We felt safe and well taken care of throughout our journey. Thank you for making our trip to Kenya so special!&rdquo;</p>
+
+              </blockquote>
+            </div> */}
+
+            <div class="item">
+              <blockquote class="block-testimonial">
+                <div class="author">
+                  <Image src="/images/person_sq_1.jpg" alt="Free template by TemplateUX" width={600} height={400} />
+                  <h4 className="highlighted-name">Jane White</h4>
+                  <p class="position mb-5">CEO, Founder</p>
+                </div>
+                <div class="quote">&ldquo;</div>
+                <p>&ldquo;Our safari with CAWA Kenya Tours and Travels was a dream come true! The guides were incredibly knowledgeable and made sure we had an unforgettable experience. From the breathtaking landscapes to the amazing wildlife, every moment was perfect. Highly recommend!&rdquo;</p>
+
+              </blockquote>
+            </div>
+
+            {/* <div class="item">
 					<blockquote class="block-testimonial">
 						<div class="author">
 							<Image src="/images/person_2.jpg" alt="Free template by TemplateUX" width={600} height={400}/>
@@ -246,7 +246,7 @@ const Home = () => {
 					</blockquote>
 				</div> */}
 
-				{/* <div class="item">
+            {/* <div class="item">
 					<blockquote class="block-testimonial">
 						<div class="author">
 							<Image src="/images/person_3.jpg" alt="Free template by TemplateUX" width={600} height={400}/>
@@ -258,14 +258,14 @@ const Home = () => {
   
           </blockquote>
 				</div> */}
-			</div>
-		</div> 
+          </div>
+        </div>
 
 
-  
 
-    
-	</div> 
+
+
+      </div>
 
 
     </main>
