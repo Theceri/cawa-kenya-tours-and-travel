@@ -15606,5 +15606,13 @@ textarea {
 }
 
 .nav-link.contact:hover {
-  background-color: #e07b1e; /* Slightly darker shade for hover effect */
+  background-color: #e07b1e; 
+}
+
+.custom-blur {
+  background-color: #41413F; 
+  backdrop-filter: blur(10px);           /* Apply blur effect */
+  position: fixed;                      /* Ensure the navbar is fixed to the top */
+  width: 100%;                          /* Ensure it spans the full width */
+  top: 0;                              /* Align to the top */
 }
