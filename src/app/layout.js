@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         {/* <Navbar /> */}
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
           <div class="container-fluid d-flex justify-content-between">
-            <Image src="/images/logo.png" alt="logo" className="logo-fluid pt-4" width={125} height={175} />
+            <Image src="/images/logo.png" alt="logo" className="logo-fluid pt-4" width={126} height={175} />
             <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
