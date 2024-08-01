@@ -32,8 +32,8 @@ export default function RootLayout({ children }) {
         />
       </Head>
       <body className={inter.className}>
-        {/* <Navbar /> */}
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+        <Navbar /> 
+        {/* <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
           <div class="container-fluid d-flex justify-content-between">
             <Image src="/images/logo.png" alt="logo" className="logo-fluid pt-4" width={126} height={175} />
             <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,11 +55,11 @@ export default function RootLayout({ children }) {
                 </li>
                 {/* <li class="nav-item">
                   <a class="nav-link text-info" href="/blog" tabindex="-1" aria-disabled="true">Blog</a>
-                </li> */}
+                </li> 
               </ul>
             </div>
           </div>
-        </nav>
+        </nav> */}
 
         {children}
 

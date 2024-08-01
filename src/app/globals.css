@@ -15483,15 +15483,28 @@ textarea {
   max-width: 90%;
   height: auto;
   display: block;
-  /* Remove any extra space at the bottom of the image */
   margin: 10px 0;
-  /* Add vertical margins */
   padding: 5px;
-  /* Add padding */
   border-radius: 5px;
-  /* Add rounded corners if desired */
-  margin-top: -18px;
+  /* margin-top: -18px; */
 }
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .logo-fluid {
+    max-width: 60%; /* Adjust as needed */
+    margin-top: -10px; /* Adjust if needed */
+  }
+}
+
+/* For extra small screens */
+@media (max-width: 576px) {
+  .logo-fluid {
+    max-width: 50%; /* Adjust as needed */
+    margin-top: -5px; /* Adjust if needed */
+  }
+}
+
 
 .highlighted-name {
   color: #f89f21;
@@ -15534,4 +15547,64 @@ textarea {
 
 .custom-text-color {
   color: #f89f21;
+}
+
+
+/* .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 15px; 
+}
+
+.navbar-nav .nav-item:last-child {
+  margin-left: auto; 
+} */
+
+/* Style for the full-width navbar (default view on larger screens) */
+.navbar {
+  background-color: transparent; /* Ensure the navbar is transparent or styled as needed for larger screens */
+}
+
+/* Style for the collapsed menu background (visible only on mobile) */
+@media (max-width: 992px) { /* Adjust this breakpoint as needed for your design */
+  .navbar-collapse {
+    background-color: #000000; /* Black background for the menu */
+  }
+
+  .navbar-collapse .nav-link {
+    color: #ffffff; /* White text color */
+  }
+
+  .navbar-collapse .nav-item {
+    padding: 10px 15px; /* Adjust padding as needed */
+  }
+
+  .navbar-collapse .nav-link:hover {
+    background-color: #333333; /* Darker background on hover */
+  }
+}
+
+
+
+
+.nav-link.contact {
+  background-color: #f89f21;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  /* margin-left: 10px;  */
+  margin-right: 70px;
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-link.contact:hover {
+  background-color: #e07b1e; /* Slightly darker shade for hover effect */
 }
