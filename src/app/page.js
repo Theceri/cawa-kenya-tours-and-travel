@@ -6,7 +6,7 @@ import OurServices from "@/components/OurServices/OurServices"
 
 const Home = () => {
   return (
-    <main>
+    <main style={{ marginTop: '-56px' }}>
 
 
       <div className="hero overlay">
