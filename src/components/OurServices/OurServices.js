@@ -25,7 +25,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Hotel and Airbnb Booking</h3>
-                    <p>Enjoy a seamless stay with our curated selection of hotels and Airbnb options. Whether you're looking for luxury, comfort, or a unique local experience, we've got you covered.</p>
+                    <p>Enjoy a seamless stay with our curated selection of hotels and Airbnb options. Whether you are looking for luxury, comfort, or a unique local experience, we have got you covered.</p>
                   </div>
                 </div>
               </div>
@@ -36,7 +36,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Safari Tours</h3>
-                    <p>Embark on an unforgettable adventure with our expertly guided safari tours. Discover Kenya’s breathtaking wildlife and stunning landscapes up close in comfort and safety.</p>
+                    <p>Embark on an unforgettable adventure with our expertly guided safari tours. Discover the breathtaking wildlife and stunning landscapes up close in comfort and safety.</p>
                   </div>
                 </div>
               </div>
@@ -58,7 +58,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Beach Holidays</h3>
-                    <p> Relax and unwind on Kenya’s beautiful beaches with our tailored beach holiday packages. From sunbathing on pristine sands to enjoying water sports, your perfect seaside getaway awaits.</p>
+                    <p> Relax and unwind on Kenya is beautiful beaches with our tailored beach holiday packages. From sunbathing on pristine sands to enjoying water sports, your perfect seaside getaway awaits.</p>
                   </div>
                 </div>
               </div>
