@@ -15465,6 +15465,21 @@ textarea {
   /* Optionally, a darker shade on hover */
 }
 
+/* .headings {
+  color: #f89f21;
+  font-size: 56px;
+  
+  font-weight: bold;
+  
+  text-align: center;
+  
+  margin-bottom: 20px;
+  
+  transition: color 0.3s ease;
+  
+} */
+
+
 .headings {
   color: #f89f21;
   font-size: 56px;
@@ -15478,6 +15493,36 @@ textarea {
   transition: color 0.3s ease;
   /* Smooth transition for color changes */
 }
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .headings {
+    font-size: 48px;
+    /* Smaller font size for tablets and smaller screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .headings {
+    font-size: 40px;
+    /* Even smaller font size for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .headings {
+    font-size: 32px;
+    /* Smaller font size for tablets in portrait mode */
+  }
+}
+
+@media (max-width: 576px) {
+  .headings {
+    font-size: 27px;
+    /* Smaller font size for mobile phones */
+  }
+}
+
 
 .logo-fluid {
   max-width: 90%;
@@ -15610,9 +15655,11 @@ textarea {
 }
 
 .custom-blur {
-  background-color: #41413F; 
-  backdrop-filter: blur(10px);           /* Apply blur effect */
-  position: fixed;                      /* Ensure the navbar is fixed to the top */
-  width: 100%;                          /* Ensure it spans the full width */
-  top: 0;                              /* Align to the top */
+  background-color: rgba(65, 65, 63, 0.5); 
+  /* background-color: #41413F;  */
+  /* backdrop-filter: blur(10px);            */
+  position: fixed;                      
+  width: 100%;                          
+  top: 0;        
+  border: none;                      
 }

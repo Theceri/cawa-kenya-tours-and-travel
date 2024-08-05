@@ -42,7 +42,7 @@ const Footer = () => {
             <div className="widget">
               <h3>Company</h3>
               <ul className="list-unstyled float-left links">
-                <li><Link href="/about">About us</Link></li>
+                {/* <li><Link href="/about">About us</Link></li> */}
                 <li><Link href="/services">Services</Link></li>
                 {/* <li><Link href="/blog">Blog</Link></li> */}
                 {/* <li><Link href="#">Careers</Link></li> */}
