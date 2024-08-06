@@ -69,7 +69,7 @@ const Contact = () => {
                     <textarea name="" id="" cols="30" rows="7" className="form-control" placeholder="Message"></textarea>
                   </div>
                   <div className="col-12">
-                    <input type="submit" value="Send Message" className="btn btn-primarys" />
+                    <input type="submit" value="Send Message" className="nav-link text-light contact" />
                   </div>
                 </div>
               </form>

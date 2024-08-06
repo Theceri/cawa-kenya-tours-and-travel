@@ -40,7 +40,8 @@ const Home = () => {
 
       {/* SECTION 2 */}
 
-      <OurServices />
+      {/* <OurServices /> */}
+      
       {/* SECTION 3 */}
 
       {/* <div className="section section-3" data-aos="fade-up" data-aos-delay="100">
@@ -142,13 +143,13 @@ const Home = () => {
         <div class="container">
           <div class="row justify-content-between align-items-center">
             <div class="col-lg-5 mb-4 mb-lg-0 order-lg-2" data-aos="fade-up">
-              <Image src="/images/img-1.jpeg" alt="Image" class="img-fluid" width={600} height={400} />
+              <Image src="/images/beach.jpeg" alt="Image" class="img-fluid" width={600} height={400} />
             </div>
             <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
               <h2 class="heading mb-4">Sweet Memories Come To Life Again</h2>
-              <p>At CAWA Tours and Travels, we believe that where you stay is just as important as your destination. That’s why we partner with the finest hotels and lodges across Kenya, from the bustling capital of Nairobi to the serene beaches of Mombasa and the breathtaking savannas of the Maasai Mara.</p>
+              <p>At CAWA Tours and Travels, we believe that where you stay is just as important as your destination. That is why we partner with the finest hotels and lodges across Kenya, from the bustling capital of Nairobi to the serene beaches of Mombasa and the breathtaking savannas of the Maasai Mara.</p>
               <p>Our curated selection of accommodations ensures that you can enjoy world-class amenities, exceptional service, and a true taste of Kenyan hospitality. </p>
-              <p class="my-4" data-aos="fade-up" data-aos-delay="200"><a href="/services" class="btn btn-primarys">Read more</a></p>
+              {/* <p class="my-4" data-aos="fade-up" data-aos-delay="200"><a href="/services" class="btn btn-primarys">Read more</a></p> */}
             </div>
           </div>
         </div>
