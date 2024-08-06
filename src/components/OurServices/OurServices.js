@@ -25,7 +25,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Hotel and Airbnb Booking</h3>
-                    <p>Enjoy a seamless stay with our curated selection of hotels and Airbnb options. Whether you are looking for luxury, comfort, or a unique local experience, we have got you covered.</p>
+                    <p>Find the perfect place to stay in Kenya with our hotel and Airbnb booking services, offering comfort and convenience for every traveler.</p>
                   </div>
                 </div>
               </div>
@@ -36,7 +36,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Safari Tours</h3>
-                    <p>Embark on an unforgettable adventure with our expertly guided safari tours. Discover the breathtaking wildlife and stunning landscapes up close in comfort and safety.</p>
+                    <p>Discover Kenya wildlife with our safari tours, including Maasai Mara tours and luxury safaris, tailored for an unforgettable adventure.</p>
                   </div>
                 </div>
               </div>
@@ -47,7 +47,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Cultural Tours</h3>
-                    <p>Immerse yourself in the rich heritage and traditions of Kenya with our cultural tours. Explore local customs, historic sites, and vibrant communities for a truly authentic experience.</p>
+                    <p>Experience Kenya rich heritage through our cultural tours, showcasing local traditions and vibrant customs.</p>
                   </div>
                 </div>
               </div>
@@ -58,7 +58,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Beach Holidays</h3>
-                    <p> Relax and unwind on Kenya is beautiful beaches with our tailored beach holiday packages. From sunbathing on pristine sands to enjoying water sports, your perfect seaside getaway awaits.</p>
+                    <p>Enjoy relaxing Kenya beach holidays with beautiful shores and luxurious resorts for a perfect coastal escape.</p>
                   </div>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Tour Guides and Tour Buddies</h3>
-                    <p>Enhance your travel experience with our knowledgeable tour guides and friendly tour buddies. They provide insights, support, and local tips to make your trip both enjoyable and memorable.</p>
+                    <p>Get the most out of your trip with expert tour guides and friendly tour buddies who enhance your Kenyan adventure.</p>
                   </div>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Airport Transfer</h3>
-                    <p>Start and end your journey stress-free with our reliable airport transfer services. Enjoy comfortable and timely transportation to and from the airport, tailored to your schedule.</p>
+                    <p>Seamlessly travel to and from the airport with our reliable airport transfer services, ensuring a smooth start and end to your journey.</p>
                   </div>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const OurServices = () => {
                   </span>
                   <div>
                     <h3>Flight Bookings and Travel Insurance</h3>
-                    <p>Simplify your travel planning with our comprehensive flight booking services and travel insurance options. We handle the details so you can focus on enjoying your trip with peace of mind.</p>
+                    <p>Book your flights and secure travel insurance effortlessly, ensuring a worry-free journey to and within Kenya.</p>
                   </div>
                 </div>
               </div>

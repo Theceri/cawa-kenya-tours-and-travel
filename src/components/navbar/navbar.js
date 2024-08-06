@@ -14,9 +14,9 @@ const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link text-light" aria-current="page" href="/">Home</a>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <a className="nav-link text-light" href="/about">About Us</a>
-            </li> */}
+            </li> 
             <li className="nav-item">
               <a className="nav-link text-light" href="/services">Services</a>
             </li>

@@ -20,8 +20,10 @@ const AboutUs = () => {
           <div className="col-lg-4 order-lg-1">
             <div>
               <h2 className="heading mb-3" data-aos="fade-up" data-aos-delay="100">Explore Kenya with CAWA Kenya Tours & Travels</h2>
-              <p data-aos="fade-up" data-aos-delay="200">Welcome to CAWA Kenya Tours and Travels, your gateway to the heart of Africa. As a premier tour operator, we are dedicated to crafting unforgettable travel experiences across the stunning landscapes and vibrant cultures of Kenya. Our expert guides and travel professionals ensure that every journey is seamless and enriching, offering personalized tours from the Maasai Mara to the pristine beaches of the Kenyan coast.</p>
-              <p data-aos="fade-up" data-aos-delay="300">At CAWA, we believe in responsible tourism. We work closely with local communities to support conservation and cultural heritage. Whether you are seeking a thrilling safari, cultural exploration, or a beach getaway, we have the perfect itinerary for you.</p>
+              <p data-aos="fade-up" data-aos-delay="200">At CAWA Kenya Tours, we are dedicated to providing exceptional travel experiences across Kenya. Specializing in Kenya travel destinations, our offerings include a range of Kenya safaris Kenya, from thrilling Maasai Mara tours to luxurious Kenya safari packages. Whether you are booking a safari or seeking insights from a Kenya safari guide, our expert team ensures an unforgettable adventure. We also offer tailored Kenya travel packages that include everything from Kenya wildlife tours to relaxing Kenya beach holidays.</p>
+              <p data-aos="fade-up" data-aos-delay="300">Our commitment extends to showcasing the best of Kenya national parks, vibrant Kenya cultural tours, and exciting Kenya adventure tours. With our help, you can discover the best time to visit Kenya and enjoy a journey that blends culture, adventure, and relaxation. Trust CAWA Kenya Tours for a memorable exploration of the unique beauty and heritage of Kenya.
+
+</p>
               <p className="my-4" data-aos="fade-up" data-aos-delay="300">
                 {/* <Link href="/about" className="btn btn-primarys">Read more</Link> */}
               </p>
