@@ -15664,25 +15664,54 @@ textarea {
   border: none;                      
 }
 
+
 .navbar {
-  height: 140px; /* Adjust the height of the navbar */
+  height: 140px; /* Default height of the navbar */
 }
 
 .navbar .container-fluid {
-  padding: 0 15px; /* Adjust padding if needed */
+  padding: 0 15px; /* Default padding */
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 14px; /* Adjust font size for nav links */
-  padding: 0.5rem 1rem; /* Adjust padding for nav links */
+  font-size: 14px; /* Default font size for nav links */
+  padding: 0.5rem 1rem; /* Default padding for nav links */
 }
 
 .navbar .navbar-toggler {
-  font-size: 16px; /* Adjust the font size of the toggler icon */
+  font-size: 16px; /* Default font size of the toggler icon */
 }
 
-/* .logo-fluid {
-  height: 130px; 
-  width: auto; 
-} */
+/* Styles for tablets */
+@media (max-width: 768px) {
+  .navbar {
+    height: 120px; /* Adjust height for tablets */
+  }
+
+  .navbar .navbar-nav .nav-link {
+    font-size: 12px; /* Adjust font size for tablets */
+    padding: 0.4rem 0.8rem; /* Adjust padding for tablets */
+  }
+
+  .navbar .navbar-toggler {
+    font-size: 14px; /* Adjust font size of the toggler icon for tablets */
+  }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 576px) {
+  .navbar {
+    height: 100px; /* Adjust height for mobile phones */
+  }
+
+  .navbar .navbar-nav .nav-link {
+    font-size: 10px; /* Adjust font size for mobile phones */
+    padding: 0.3rem 0.6rem; /* Adjust padding for mobile phones */
+  }
+
+  .navbar .navbar-toggler {
+    font-size: 12px; /* Adjust font size of the toggler icon for mobile phones */
+  }
+}
+
 
