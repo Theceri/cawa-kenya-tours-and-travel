@@ -20,10 +20,24 @@ const AboutUs = () => {
           <div className="col-lg-4 order-lg-1">
             <div>
               <h2 className="heading mb-3" data-aos="fade-up" data-aos-delay="100">Explore Kenya with CAWA Kenya Tours & Travels</h2>
-              <p data-aos="fade-up" data-aos-delay="200">At CAWA Kenya Tours, we are dedicated to providing exceptional travel experiences across Kenya. Specializing in Kenya travel destinations, our offerings include a range of safaris in Kenya, from thrilling Maasai Mara tours to luxurious Kenya safari packages. Whether you are booking a safari or seeking insights from a Kenya safari guide, our expert team ensures an unforgettable adventure. We also offer tailored Kenya travel packages that include everything from Kenya wildlife tours to relaxing Kenya beach holidays.</p>
-              <p data-aos="fade-up" data-aos-delay="300">Our commitment extends to showcasing the best of Kenya national parks, vibrant Kenya cultural tours, and exciting Kenya adventure tours. With our help, you can discover the best time to visit Kenya and enjoy a journey that blends culture, adventure, and relaxation. Trust CAWA Kenya Tours for a memorable exploration of the unique beauty and heritage of Kenya.
+              
+              <p data-aos="fade-up" data-aos-delay="200">
+                 We provide exceptional experiences, from Maasai Mara tours and luxury safaris to tailored travel packages. Whether booking a safari or seeking a Kenya safari guide, our team ensures an unforgettable adventure. Discover national parks, cultural tours, and more with CAWA Kenya Tours.
+                </p>
 
-</p>
+                <strong>OUR MISSION</strong>
+                <p data-aos="fade-up" data-aos-delay="300">
+                   Our job is to make your life easier by taking care of all your travel needs. We specialize in:
+                </p>
+                <ul className="custom-list">
+                  <li>Booking accommodation in hotels and Airbnbs across the country</li>
+                  <li>Securing air tickets for your travels</li>
+                   <li>Arranging transport to and from the airport</li>
+                  <li>Providing vetted tour guides to ensure your safety and enjoyment while in Kenya</li>
+                </ul>
+               <p>
+                  Let us handle the details so you can focus on what matters most.
+                </p>
               <p className="my-4" data-aos="fade-up" data-aos-delay="300">
                 {/* <Link href="/about" className="btn btn-primarys">Read more</Link> */}
               </p>

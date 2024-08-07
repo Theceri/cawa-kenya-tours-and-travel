@@ -35,7 +35,35 @@ const Home = () => {
 
       {/* SECTION 1 */}
 
-      <AboutUs />
+        <div className="section section-2">
+        <div className="container">
+          <div className="row align-items-center justify-content-between">
+            <div className="col-lg-6 order-lg-2 mb-5 mb-lg-0">
+              <div className="image-stack mb-5 mb-lg-0">
+                <div className="image-stack__item image-stack__item--bottom" data-aos="fade-up">
+                  <Image src="/images/img_v_1.jpeg" alt="Image" className="img-fluid rellax" width={600} height={400} />
+                </div>
+                <div className="image-stack__item image-stack__item--top" data-aos="fade-up" data-aos-delay="100" data-rellax-percentage="0.5">
+                  <Image src="/images/img_v_2.jpeg" alt="Image" className="img-fluid" width={600} height={400} />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 order-lg-1">
+              <div>
+                <h2 className="heading mb-3" data-aos="fade-up" data-aos-delay="100">Explore Kenya with CAWA Kenya Tours & Travels</h2>
+                
+                <p data-aos="fade-up" data-aos-delay="200">At CAWA Kenya Tours, we offer exceptional travel experiences throughout Kenya, including exciting Maasai Mara safaris and luxurious safari packages. Our tailored travel options range from wildlife tours to relaxing beach holidays, ensuring memorable adventures with expert guidance.</p>
+                <p data-aos="fade-up" data-aos-delay="300">Explore the best of Kenya, from national parks and cultural tours to thrilling adventure experiences. Trust CAWA Kenya Tours to deliver an unforgettable journey blending culture, adventure, and relaxation.</p>
+
+
+                <p className="my-4" data-aos="fade-up" data-aos-delay="300">
+                  {/* <Link href="/about" className="btn btn-primarys">Read more</Link> */}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
       {/* SECTION 2 */}
