@@ -52,23 +52,9 @@ const Home = () => {
               <div>
                 <h2 className="heading mb-3" data-aos="fade-up" data-aos-delay="100">Explore Kenya with CAWA Kenya Tours & Travels</h2>
                 
-                <p data-aos="fade-up" data-aos-delay="200">
-                 We provide exceptional experiences, from Maasai Mara tours and luxury safaris to tailored travel packages. Whether booking a safari or seeking a Kenya safari guide, our team ensures an unforgettable adventure. Discover national parks, cultural tours, and more with CAWA Kenya Tours.
-                </p>
+                <p data-aos="fade-up" data-aos-delay="200">At CAWA Kenya Tours, we offer exceptional travel experiences throughout Kenya, including exciting Maasai Mara safaris and luxurious safari packages. Our tailored travel options range from wildlife tours to relaxing beach holidays, ensuring memorable adventures with expert guidance.</p>
+                <p data-aos="fade-up" data-aos-delay="300">Explore the best of Kenya, from national parks and cultural tours to thrilling adventure experiences. Trust CAWA Kenya Tours to deliver an unforgettable journey blending culture, adventure, and relaxation.</p>
 
-                <strong>OUR MISSION</strong>
-                <p data-aos="fade-up" data-aos-delay="300">
-                   Our job is to make your life easier by taking care of all your travel needs. We specialize in:
-                </p>
-                <ul>
-                  <li>Booking accommodation in hotels and Airbnbs across the country</li>
-                  <li>Securing air tickets for your travels</li>
-                   <li>Arranging transport to and from the airport</li>
-                  <li>Providing vetted tour guides to ensure your safety and enjoyment while in Kenya</li>
-                </ul>
-               <p>
-                  Let us handle the details so you can focus on what matters most.
-                </p>
 
                 <p className="my-4" data-aos="fade-up" data-aos-delay="300">
                   {/* <Link href="/about" className="btn btn-primarys">Read more</Link> */}
