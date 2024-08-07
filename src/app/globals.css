@@ -15701,7 +15701,7 @@ textarea {
 /* Styles for mobile phones */
 @media (max-width: 576px) {
   .navbar {
-    height: 100px; /* Adjust height for mobile phones */
+    height: 70px; /* Adjust height for mobile phones */
   }
 
   .navbar .navbar-nav .nav-link {
