@@ -15545,8 +15545,8 @@ textarea {
 /* For extra small screens */
 @media (max-width: 576px) {
   .logo-fluid {
-    max-width: 50%; /* Adjust as needed */
-    margin-top: -5px; /* Adjust if needed */
+    max-width: 30%; /* Adjust as needed */
+    
   }
 }
 
@@ -15683,35 +15683,40 @@ textarea {
 }
 
 /* Styles for tablets */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .navbar {
-    height: 120px; /* Adjust height for tablets */
+    height: 120px; 
   }
 
   .navbar .navbar-nav .nav-link {
-    font-size: 12px; /* Adjust font size for tablets */
-    padding: 0.4rem 0.8rem; /* Adjust padding for tablets */
+    font-size: 12px; 
+    padding: 0.4rem 0.8rem; 
   }
 
   .navbar .navbar-toggler {
-    font-size: 14px; /* Adjust font size of the toggler icon for tablets */
+    font-size: 14px; 
   }
-}
+} */
 
 /* Styles for mobile phones */
-@media (max-width: 576px) {
+ @media (max-width: 576px) {
   .navbar {
-    height: 70px; /* Adjust height for mobile phones */
+    height: 80px; 
+    
   }
 
-  .navbar .navbar-nav .nav-link {
-    font-size: 10px; /* Adjust font size for mobile phones */
-    padding: 0.3rem 0.6rem; /* Adjust padding for mobile phones */
+  .navbar .container-fluid {
+    padding: 0 10px;
+    /* margin-bottom: 120px; */
   }
 
-  .navbar .navbar-toggler {
-    font-size: 12px; /* Adjust font size of the toggler icon for mobile phones */
-  }
-}
+
+  /* .navbar .navbar-nav .nav-link {
+    font-size: 10px; 
+    padding: 0.3rem 0.6rem; 
+    
+  } */
+
+} 
 
 
