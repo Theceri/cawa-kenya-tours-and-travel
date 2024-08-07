@@ -53,7 +53,7 @@ const Home = () => {
                 <h2 className="heading mb-3" data-aos="fade-up" data-aos-delay="100">Explore Kenya with CAWA Kenya Tours & Travels</h2>
                 
                 <p data-aos="fade-up" data-aos-delay="200">
-                  Explore Kenya with CAWA Kenya Tours & Travels. We provide exceptional experiences, from Maasai Mara tours and luxury safaris to tailored travel packages. Whether booking a safari or seeking a Kenya safari guide, our team ensures an unforgettable adventure. Discover Kenya's national parks, cultural tours, and more with CAWA Kenya Tours.
+                  Explore Kenya with CAWA Kenya Tours & Travels. We provide exceptional experiences, from Maasai Mara tours and luxury safaris to tailored travel packages. Whether booking a safari or seeking a Kenya safari guide, our team ensures an unforgettable adventure. Discover national parks, cultural tours, and more with CAWA Kenya Tours.
                 </p>
 
                 <strong>OUR MISSION</strong>
