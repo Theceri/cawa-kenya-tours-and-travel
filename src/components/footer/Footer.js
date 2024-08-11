@@ -46,14 +46,14 @@ const Footer = () => {
                 <li><Link href="/services">Services</Link></li>
                 {/* <li><Link href="/blog">Blog</Link></li> */}
                 {/* <li><Link href="#">Careers</Link></li> */}
-                <li><Link href="/contact">Contact</Link></li>
+                <li><Link href="/contact">Contact us</Link></li>
               </ul>
             </div>
           </div>
 
           <div className="col-lg-3">
             <div className="widget">
-              <h3>Contact</h3>
+              <h3>Contacts</h3>
               <address>The Mirage, Waiyaki Way, Westlands, Nairobi</address>
               <ul className="list-unstyled links mb-4">
                 <li><a href="+254 726 462 757">+254 726 462 757</a></li>

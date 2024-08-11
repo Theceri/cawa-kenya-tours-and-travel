@@ -13,7 +13,7 @@ const AboutUs = () => {
                 <Image src="/images/img_v_1.jpeg" alt="Image" className="img-fluid rellax" width={600} height={400} />
               </div>
               <div className="image-stack__item image-stack__item--top" data-aos="fade-up" data-aos-delay="100" data-rellax-percentage="0.5">
-                <Image src="/images/img_v_2.jpeg" alt="Image" className="img-fluid" width={600} height={400} />
+                <Image src="/images/masaai.jpeg" alt="Image" className="img-fluid" width={600} height={400} />
               </div>
             </div>
           </div>
