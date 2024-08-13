@@ -13,8 +13,8 @@ const WhatsappFloatingButton = () => {
         statusMessage='Available' 
         placeholder='Write here...' 
         allowEsc={true} 
-        style={{ left: '20px', right: 'unset' }}
-        buttonStyle={{ left: '20px', right: 'unset' }}
+        // style={{ left: '20px', right: 'unset' }}
+        // buttonStyle={{ left: '20px', right: 'unset' }}
         
       />
   );
