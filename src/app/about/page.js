@@ -14,8 +14,9 @@ const About = () => {
           <div className="row align-items-center justify-content-start">
             <div className="col-lg-5">
               <h1 className="headings" data-aos="fade-up">About Us</h1>
-              <p className="mb-5" data-aos="fade-up">Welcome to CAWA Tours and Travels, your gateway to discovering the enchanting beauty of Kenya. Based in the heart of East Africa, we specialize in offering exceptional hotel booking services tailored for international tourists.</p>
-
+              <p className="mb-5" data-aos="fade-up">Discover the world with CAWA Tours and Travels! At CAWA, we specialize in creating unforgettable travel experiences tailored just for you.</p>
+              
+                                                          
               {/* <div data-aos="fade-up">
                 <a href="https://www.youtube.com/watch?v=5n-e6lOhVq0" className="play-button align-items-center d-flex glightbox3">
                   <span className="icon-button me-3">

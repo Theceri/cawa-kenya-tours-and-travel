@@ -8,7 +8,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/Footer";
 import WhatsappFloatingButton from "@/components/WhatsappButton/WhatsappFloatingButton"
-import TawkMessenger from '@/components/TawkMessenger/TawkMessenger';
+// import TawkMessenger from '@/components/TawkMessenger/TawkMessenger';
 import './styles/custom-bootstrap.scss'
 
 const inter = Inter({ subsets: ["latin"] });
@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
 
         {children}
 
-        <TawkMessenger />
+        {/* <TawkMessenger /> */}
         <WhatsappFloatingButton />
         <Footer />
         {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>*/}
