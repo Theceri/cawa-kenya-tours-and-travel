@@ -3,7 +3,8 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light custom-blur fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light ">
+    {/* <nav className="site-nav mt-3  navbar-expand-lg  "> */}
       <div className="container-fluid d-flex justify-content-between align-items-center">
         <Image src="/images/b.png" alt="logo" className="logo-fluid" width={170} height={60} />
         <button className="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
