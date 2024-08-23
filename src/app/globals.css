@@ -13,7 +13,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+ :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -15468,15 +15468,15 @@ textarea {
 /* .headings {
   color: #f89f21;
   font-size: 56px;
-
+  
   font-weight: bold;
-
+  
   text-align: center;
-
+  
   margin-bottom: 20px;
-
+  
   transition: color 0.3s ease;
-
+  
 } */
 
 
@@ -15538,15 +15538,15 @@ textarea {
 @media (max-width: 768px) {
   .logo-fluid {
     max-width: 60%; /* Adjust as needed */
-    /* margin-top: -10px;  */
+    margin-top: -10px; /* Adjust if needed */
   }
 }
 
 /* For extra small screens */
 @media (max-width: 576px) {
   .logo-fluid {
-    max-width: 30%; /* Adjust as needed */
-
+    max-width: 27%; /* Adjust as needed */
+    
   }
 }
 
@@ -15595,140 +15595,131 @@ textarea {
 }
 
 
-.navbar-nav {
+/* .navbar-nav {
   display: flex;
   justify-content: center;
   width: 100%;
   flex-grow: 1;
 }
 
-/* .navbar-nav .nav-item {
-  margin: 0 15px;
-} */
+.navbar-nav .nav-item {
+  margin: 0 15px; 
+}
 
-/* .navbar-nav .nav-item:last-child {
-  margin-left: auto;
-}  */
+.navbar-nav .nav-item:last-child {
+  margin-left: auto; 
+} */
 
 /* Style for the full-width navbar (default view on larger screens) */
 .navbar {
-  background-color: rgba(65, 65, 63); 
-  position: relative; 
-  z-index: 1000; 
-} 
+  background-color: transparent; /* Ensure the navbar is transparent or styled as needed for larger screens */
+}
 
-
-@media (max-width: 992px) {
+/* Style for the collapsed menu background (visible only on mobile) */
+@media (max-width: 992px) { /* Adjust this breakpoint as needed for your design */
   .navbar-collapse {
-    background-color: #000000;
+    background-color: #000000; /* Black background for the menu */
   }
 
   .navbar-collapse .nav-link {
-    color: #ffffff;
+    color: #ffffff; /* White text color */
   }
 
   .navbar-collapse .nav-item {
-    padding: 10px 15px;
-    /* margin-right: 30; */
+    padding: 10px 15px; /* Adjust padding as needed */
   }
 
   .navbar-collapse .nav-link:hover {
-    background-color: #333333;
+    background-color: #333333; /* Darker background on hover */
   }
+}
 
-  /* .navbar-collapse .nav-item.contact{
-    margin-right: 10px;
-  } */
-} 
-
-/* .navbar {
-  /* height: 140px; */
-  /* background-color: red;  
-  background-color: rgba(65, 65, 63); 
-  padding: 15px 0; 
-}  */
 
 
 
 .nav-link.contact {
   background-color: #f89f21;
   color: #ffffff;
-  padding: 10px 20px;
+  padding: 8px 16px;
   border-radius: 4px;
   text-align: center;
   display: inline-block;
   transition: background-color 0.3s ease;
-  
-  margin-left: 150px; 
-  text-decoration: none; 
-} 
-
-.nav-link.contact:hover {
-  background-color: #e07b1e;
-} 
-
-.custom-blur {
-  background-color: rgba(65, 65, 63, 0.9);
-  /* background-color: #41413F;  */
-  /* backdrop-filter: blur(10px);            */
-  position: fixed;
-  width: 100%;
-  top: 0;
-  border: none;
+  /* margin-left: 10px;  */
+  margin-right: 70px;
+  text-decoration: none; /* Remove underline */
 }
 
- 
+.nav-link.contact:hover {
+  background-color: #e07b1e; 
+}
 
-/* .navbar .container-fluid {
-  padding: 0 15px; 
+.custom-blur {
+  background-color: rgba(65, 65, 63); 
+  /* background-color: #41413F;  */
+  /* backdrop-filter: blur(10px);   */
+  position: fixed;                      
+  width: 100%;                          
+  top: 0;        
+  border: none;                      
+}
+
+
+.navbar {
+  height: 140px; /* Default height of the navbar */
+  position: relative; 
+  z-index: 1000; 
+}
+
+.navbar .container-fluid {
+  padding: 0 15px; /* Default padding */
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 14px; 
-  padding: 0.5rem 1rem; 
+  font-size: 14px; /* Default font size for nav links */
+  padding: 0.5rem 1rem; /* Default padding for nav links */
 }
 
 .navbar .navbar-toggler {
-  font-size: 16px; 
-} */
+  font-size: 16px; /* Default font size of the toggler icon */
+}
 
 /* Styles for tablets */
- /* @media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .navbar {
-    height: 120px;
+    height: 120px; 
   }
 
   .navbar .navbar-nav .nav-link {
-    font-size: 12px;
-    padding: 0.4rem 0.8rem;
+    font-size: 12px; 
+    padding: 0.4rem 0.8rem; 
   }
 
   .navbar .navbar-toggler {
-    font-size: 14px;
+    font-size: 14px; 
   }
-}  */
+} */
 
 /* Styles for mobile phones */
-   /* @media (max-width: 576px) {
-   .navbar {
-    height: 450px;
-
-  }
-} */
-
-  /*.navbar .container-fluid {
-    padding: 0 10px;
+ @media (max-width: 576px) {
+  .navbar {
+    height: 75px; 
     
-  }  
+  }
+
+  .navbar .container-fluid {
+    padding: 0 10px;
+    /* margin-bottom: 120px; */
+  }
 
 
-  .navbar .navbar-nav .nav-link {
-    font-size: 10px;
-    padding: 0.3rem 0.6rem;
+  /* .navbar .navbar-nav .nav-link {
+    font-size: 10px; 
+    padding: 0.3rem 0.6rem; 
+    
+  } */
 
-  } 
-
-} */
+} 
 
 .custom-list {
   list-style: none; /* Remove default bullets */
@@ -15754,70 +15745,4 @@ textarea {
 }
 
 
-
-
-/* .unfixed {
-  position: static;
-  top: auto;
-} */
-/* Navbar Styling */
-/* Navbar Styling */
-.site-nav {
-  background-color: rgba(65, 65, 63, 0.1); 
-  padding: 15px 0; 
-}
-
-/* Styling for navigation items */
-.site-nav .navbar-nav .nav-item {
-  margin-right: 20px; /* Space between items on larger screens */
-}
-
-/* Link styling */
-.site-nav .nav-link {
-  color: #fff; /* Text color */
-  padding: 10px 15px; /* Padding inside the links */
-  transition: color 0.3s ease; /* Smooth transition on hover */
-}
-
-.site-nav .nav-link:hover {
-  color: #f0ad4e; /* Change color on hover */
-}
-
-/* Responsive adjustments */
-@media (max-width: 992px) {
-  .site-nav .navbar-nav .nav-item {
-    margin-right: 10px; /* Adjust spacing on smaller screens */
-  }
-}
-
-@media (max-width: 768px) {
-  .site-nav {
-    margin-top: 60px; /* Add margin-top on mobile screens */
-  }
-
-  .site-nav .container-fluid {
-    flex-direction: column; /* Stack logo and nav on smaller screens */
-    align-items: flex-start; /* Align items to the left */
-  }
-  
-  .site-nav .navbar-nav {
-    flex-direction: column; /* Stack nav items vertically */
-    width: 100%; /* Full width */
-  }
-
-  .site-nav .navbar-collapse {
-    width: 100%; /* Full width for collapse */
-  }
-
-  .site-nav .navbar-nav .nav-item {
-    margin-right: 0; /* Remove margin between items on mobile */
-    margin-bottom: 10px; /* Add spacing below each item */
-  }
-
-  .site-nav .nav-link {
-    padding: 10px; /* Adjust padding on mobile */
-    text-align: left; /* Align text to the left */
-    width: 100%; /* Full width for links */
-  }
-}
 
