@@ -15684,6 +15684,15 @@ textarea {
   font-size: 16px; /* Default font size of the toggler icon */
 }
 
+.navbar-toggler {
+  margin-bottom: 15px; /* Adjust the value to your desired margin */
+}
+
+
+/* .navbar-toggler-icon {
+  margin-bottom: 30px; 
+} */
+
 /* Styles for tablets */
 /* @media (max-width: 768px) {
   .navbar {
