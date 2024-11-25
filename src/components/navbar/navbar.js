@@ -16,9 +16,13 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="/about">About Us</a>
-            </li> 
+            </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="/services">Services</a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link text-light" href="#">Vacations</a>
             </li>
           </ul>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
