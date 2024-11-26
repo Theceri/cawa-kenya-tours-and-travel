@@ -22,7 +22,7 @@ const Vacation = () => {
                     <div className='row'>
                         <div className='col-md-12'>
                             <h3 >VACATIONS</h3>
-                            <p class="t_sub_t">Embark on a once-in-a-lifetime journey through Kenya&apos;s iconic landscapes, from the thrilling game drives of Masai Mara to the serene beauty of Lake Naivasha and the majestic elephants of Amboseli. Unforgettable wildlife encounters and stunning views await&quote;</p>
+                            <p class="t_sub_t">Embark on a once-in-a-lifetime journey through Kenya&apos;s iconic landscapes, from the thrilling game drives of Masai Mara to the serene beauty of Lake Naivasha and the majestic elephants of Amboseli. Unforgettable wildlife encounters and stunning views await!</p>
 
                         </div>
                     </div>
