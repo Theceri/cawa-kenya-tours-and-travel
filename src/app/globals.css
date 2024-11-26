@@ -15537,16 +15537,19 @@ textarea {
 /* For smaller screens */
 @media (max-width: 768px) {
   .logo-fluid {
-    max-width: 60%; /* Adjust as needed */
-    margin-top: -10px; /* Adjust if needed */
+    max-width: 60%;
+    /* Adjust as needed */
+    margin-top: -10px;
+    /* Adjust if needed */
   }
 }
 
 /* For extra small screens */
 @media (max-width: 576px) {
   .logo-fluid {
-    max-width: 27%; /* Adjust as needed */
-    
+    max-width: 27%;
+    /* Adjust as needed */
+
   }
 }
 
@@ -15612,25 +15615,32 @@ textarea {
 
 /* Style for the full-width navbar (default view on larger screens) */
 .navbar {
-  background-color: transparent; /* Ensure the navbar is transparent or styled as needed for larger screens */
+  background-color: transparent;
+  /* Ensure the navbar is transparent or styled as needed for larger screens */
 }
 
 /* Style for the collapsed menu background (visible only on mobile) */
-@media (max-width: 992px) { /* Adjust this breakpoint as needed for your design */
+@media (max-width: 992px) {
+
+  /* Adjust this breakpoint as needed for your design */
   .navbar-collapse {
-    background-color: #000000; /* Black background for the menu */
+    background-color: #000000;
+    /* Black background for the menu */
   }
 
   .navbar-collapse .nav-link {
-    color: #ffffff; /* White text color */
+    color: #ffffff;
+    /* White text color */
   }
 
   .navbar-collapse .nav-item {
-    padding: 10px 15px; /* Adjust padding as needed */
+    padding: 10px 15px;
+    /* Adjust padding as needed */
   }
 
   .navbar-collapse .nav-link:hover {
-    background-color: #333333; /* Darker background on hover */
+    background-color: #333333;
+    /* Darker background on hover */
   }
 }
 
@@ -15647,39 +15657,45 @@ textarea {
   transition: background-color 0.3s ease;
   /* margin-left: 10px;  */
   margin-right: 70px;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none;
+  /* Remove underline */
 }
 
 .nav-link.contact:hover {
-  background-color: #e07b1e; 
+  background-color: #e07b1e;
 }
 
 .custom-blur {
-  background-color: rgba(65, 65, 63, 0.9); 
+  background-color: rgba(65, 65, 63, 0.9);
   /* background-color: #41413F;  */
   /* backdrop-filter: blur(10px);            */
-  position: fixed;                      
-  width: 100%;                          
-  top: 0;        
-  border: none;                      
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border: none;
 }
 
 
 .navbar {
-  height: 140px; /* Default height of the navbar */
+  height: 140px;
+  /* Default height of the navbar */
 }
 
 .navbar .container-fluid {
-  padding: 0 15px; /* Default padding */
+  padding: 0 15px;
+  /* Default padding */
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 14px; /* Default font size for nav links */
-  padding: 0.5rem 1rem; /* Default padding for nav links */
+  font-size: 14px;
+  /* Default font size for nav links */
+  padding: 0.5rem 1rem;
+  /* Default padding for nav links */
 }
 
 .navbar .navbar-toggler {
-  font-size: 16px; /* Default font size of the toggler icon */
+  font-size: 16px;
+  /* Default font size of the toggler icon */
 }
 
 /* Styles for tablets */
@@ -15699,10 +15715,10 @@ textarea {
 } */
 
 /* Styles for mobile phones */
- @media (max-width: 576px) {
+@media (max-width: 576px) {
   .navbar {
-    height: 75px; 
-    
+    height: 75px;
+
   }
 
   .navbar .container-fluid {
@@ -15717,30 +15733,82 @@ textarea {
     
   } */
 
-} 
+}
 
 .custom-list {
-  list-style: none; /* Remove default bullets */
-  padding-left: 0; /* Remove default padding */
+  list-style: none;
+  /* Remove default bullets */
+  padding-left: 0;
+  /* Remove default padding */
 }
 
 .custom-list li {
-  position: relative; /* Position for the custom circle */
-  padding-left: 2.5em; /* Space for the circle */
-  margin-bottom: 1em; /* Space between list items */
+  position: relative;
+  /* Position for the custom circle */
+  padding-left: 2.5em;
+  /* Space for the circle */
+  margin-bottom: 1em;
+  /* Space between list items */
 }
 
 .custom-list li::before {
   content: "";
   position: absolute;
-  left: 0; /* Position the circle on the left side */
+  left: 0;
+  /* Position the circle on the left side */
   top: 50%;
-  transform: translateY(-50%); /* Center vertically */
-  width: 12px; /* Adjust size as needed */
-  height: 12px; /* Adjust size as needed */
-  background-color: #f89f21; /* Set the color of the circle */
-  border-radius: 50%; /* Make it a circle */
+  transform: translateY(-50%);
+  /* Center vertically */
+  width: 12px;
+  /* Adjust size as needed */
+  height: 12px;
+  /* Adjust size as needed */
+  background-color: #f89f21;
+  /* Set the color of the circle */
+  border-radius: 50%;
+  /* Make it a circle */
 }
 
 
 
+.vacation-img {
+  border: 1px solid #eee;
+
+  padding: 4px;
+}
+
+.vacation_title {
+  background-color: #f5f4f4;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.vacation_title h5 {
+  font-size: 16px;
+}
+
+.vacation_subtitle {
+  font-size: 12px;
+}
+
+.vacation-content h3 {
+  font-size: 18px;
+}
+
+
+.vacation-content p {
+  font-size: 14px;
+}
+
+.duration {
+  font-size: 12px;
+}
+
+
+.tour_list {
+  font-size: 14px;
+}
+
+.t_sub_t {
+  font-size: 14px;
+}

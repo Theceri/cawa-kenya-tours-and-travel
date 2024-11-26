@@ -22,7 +22,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">Vacations</a>
+              <a className="nav-link text-light" href="/vacation">Vacations</a>
             </li>
           </ul>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
