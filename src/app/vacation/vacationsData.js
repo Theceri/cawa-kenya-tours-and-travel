@@ -92,7 +92,7 @@ const vacationsData = [
     {
         "title": "4 Days - Masai Mara and Lake Nakuru",
         "subtitle": "This is our best selling classic safari in Kenya. In this tour you have the best chances to experience the Big 5 in Kenya. Starting with Masai Mara where you can find at least 4 of the big 5 along with many other varieties and numbers of animals, you will be moving to Lake Nakuru (5 hours drive) on Day 3. Lake Nakuru offers good chances for spotting rhinos along with aquatic birds like flamingos.",
-        "image": "/images/vacations/4-days-masai-mara-and-lake-nakuru.jpg",
+        "image": "/images/vacations/mara.jpg",
         "content": `
         <h3>Day 1 - Nairobi to Masai Mara</h3>
         <p>Your tour starts with pick up at 7:30 AM from your Nairobi hotel or Airport and drive to Masai Mara. This drive will take about 5 to 6.5 hours with a scenic stopover at Great Rift Valley. Arrive in Masai Mara shortly after noon and check into your lodge/camp, have hot lunch and then depart for an afternoon game drive.</p>
